@@ -1,0 +1,22 @@
+As discussed in Chapter 1, Getting Started, we begin the jQuery code by calling
+$(document).ready(), which runs the function passed to it once the DOM
+has been loaded, but not before.
+The second line uses the child combinator (>) to add the horizontal class to all the
+top-level items only. In effect, the selector inside the $() function is saying, "Find
+each list item (li) that is a child (>) of the element with an ID of selected-plays
+(#selected-plays)"
+
+$(document).ready(function() {
+  $('#selected-plays > li').addClass('horizontal');
+});
+------
+
+$(document).ready(function() {
+$('#selected-plays > li').addClass('horizontal');
+$('#selected-plays li:not(.horizontal)').addClass('sublevel');
+li:not(.horizontal)').addClass('sub-level');
+});
+
+.sub-level {
+background: #ccc;
+}
