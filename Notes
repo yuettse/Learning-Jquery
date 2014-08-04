@@ -30,3 +30,12 @@ $('#switcher-large').on('click', function() {
 $('body').addClass('large');
 });
 });
+
+
+$(document).ready(function() {
+$('a[href^="mailto:"]').addClass('mailto');
+$('a[href$=".pdf"]').addClass('pdflink');
+$('a[href^="http"][href*="henry"]')
+.addClass('henrylink');
+});
+});
