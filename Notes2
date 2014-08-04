@@ -1,0 +1,33 @@
+* = anywhere
+^ = start
+$ = end
+
+nth-child()
+something:odd
+something:even
+
+contain()
+input
+button
+enabled
+disabled
+checked
+slected
+
+filter
+.next()
+.nextll()
+.prev()
+.prevAll()
+.siblings()
+.addBack()
+.parent()
+.children()
+.find()
+.end()
+.get(0) 
+[0]
+
+onload
+
+jQuery.noConflict();
