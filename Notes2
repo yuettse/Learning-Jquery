@@ -30,4 +30,13 @@ filter
 
 onload
 
-jQuery.noConflict();
+<script>
+jQuery.noConflict(); //jQuery not $
+</script>
+
+.on
+.click
+.toggleClass()
+
+CSS
+.hover(,)
