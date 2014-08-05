@@ -37,6 +37,13 @@ jQuery.noConflict(); //jQuery not $
 .on
 .click
 .toggleClass()
-
-CSS
 .hover(,)
+.event
+event.stopPropagation()
+.is()
+.hasClass()
+.off()
+.trigger()
+.keyup()
+.keydown()
+
